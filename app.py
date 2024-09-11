@@ -160,6 +160,3 @@ async def get_event(event_id: int):
     ) for row in event_days]
 
     return event_day_list
-
-if __name__ == "__main__":
-    uvicorn.run("app:app", host="127.0.0.1", port=8000)
