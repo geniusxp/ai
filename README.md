@@ -6,6 +6,7 @@
 GeniusXP é uma plataforma centralizada para gestão de eventos que simplifica operações como inscrições, pagamentos e check-in, enquanto aumenta o engajamento com enquetes e networking. A inteligência artificial da GeniusXP utiliza as preferências dos usuários para oferecer uma experiência altamente personalizada e otimizar o planejamento. Com análise de sentimento e assistência virtual, a plataforma proporciona interações mais significativas, elevando a eficiência da gestão e tornando os eventos mais impactantes para cada participante.
 
 ## 🎥 Pré-visualização do projeto integrado
+https://github.com/user-attachments/assets/8e5210e5-ca94-4c4c-a912-92afa935565a
 
 
 ## 👥 Equipe
