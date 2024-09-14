@@ -97,7 +97,6 @@ connection = oracledb.connect(
     user="rm99565",
     password="140805",
     dsn="oracle.fiap.com.br/orcl")
-cursor = connection.cursor()
 
 app = FastAPI()
 
@@ -117,6 +116,7 @@ async def app_status():
 async def send_message(message: str, event_id: int):
     emotion = predict_message(message)
 
+    cursor = connection.cursor()
     cursor.callproc("INCREASE_EVENT_EMOTION", [event_id, emotion])
     connection.commit()
     return emotion
@@ -139,6 +139,7 @@ class EventDay(BaseModel):
 
 @app.get("/event/{event_id}")
 async def get_event(event_id: int):
+    cursor = connection.cursor()
     cursor.execute("SELECT * FROM TBL_EVENT_EMOTIONS WHERE EVENT_ID = :id", id=event_id)
     event_days = cursor.fetchall()
 
