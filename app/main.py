@@ -104,6 +104,3 @@ async def get_recommendation(interests: str):
     ) for idx, row in projects.iterrows()]
 
     return project_list
-
-if __name__ == "__main__":
-    uvicorn.run("main:app", host="127.0.0.1", port=8000)
