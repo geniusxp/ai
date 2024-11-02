@@ -14,7 +14,7 @@ https://github.com/user-attachments/assets/8e5210e5-ca94-4c4c-a912-92afa935565a
 
 ### ✨ Recomendações de projetos para visitar durante o evento FIAP NEXT 2024
 
-TODO: Colocar vídeo aqui
+https://github.com/user-attachments/assets/511ed50d-edac-4c6e-ae2e-567e933b7c70
 
 ## 📔 Funcionalidades desenvolvidas
 
